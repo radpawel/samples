@@ -1,0 +1,34 @@
+{
+    "generatedPolicyResult": {
+        "properties": {
+            "cloudTrailProperties": {
+                "endTime": "test",
+                "startTime": "test",
+                "trailProperties": [
+                    {
+                        "allRegions": "true",
+                        "cloudTrailArn": "arn:aws:cloudtrail:us-west-2:xxxxxxxxxxxx:trail/GRPNOrganizationTrail",
+                        "regions": [
+                            "us-west-2"
+                        ]
+                    }
+                ]
+            },
+            "principalArn": "arn:aws:iam::xxxxxxxxxxxx:role/aurora-snapshot-tool-test1-iamroleSnapshotsAurora-VRRS974AEP6E"
+        }
+    },
+    "jobDetails": {
+        "completedOn": "test",
+        "jobError": {
+            "code": "SERVICE_QUOTA_EXCEEDED_ERROR",
+            "message": "CloudTrail log files processed per policy generation limit exceeded.  Please fix before trying again."
+        },
+        "jobId": "9473619a-f1ff-4813-a1c9-adda3a0c2939",
+        "startedOn": "test",
+        "status": "FAILED"
+    }
+}
+
+
+// ["generatedPolicyResult"]["properties"]["cloudTrailProperties"]["startTime"]
+// ["generatedPolicyResult"]["properties"]["cloudTrailProperties"]["endTime"]

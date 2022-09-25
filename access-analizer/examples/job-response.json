@@ -1,0 +1,17 @@
+{
+    "ResponseMetadata": {
+        "RequestId": "a6f18725-9989-462c-810f-dc8f45a8cd4e",
+        "HTTPStatusCode": 200,
+        "HTTPHeaders": {
+            "date": "Wed, 15 Sep 2021 15:22:30 GMT",
+            "content-type": "application/json",
+            "content-length": "48",
+            "connection": "keep-alive",
+            "x-amzn-requestid": "a6f18725-9989-462c-810f-dc8f45a8cd4e",
+            "x-amz-apigw-id": "FtdkgH0HvHcFbgQ=",
+            "x-amzn-trace-id": "Root=1-61420fb6-717728c260d1f32122aaad2e"
+        },
+        "RetryAttempts": 0
+    },
+    "jobId": "5985e045-e499-4a74-a344-69bc1d5a2748"
+}

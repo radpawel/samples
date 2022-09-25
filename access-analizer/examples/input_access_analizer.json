@@ -1,0 +1,20 @@
+{
+    "clientToken": "8989898989898989898989898",
+    "cloudTrailDetails": {
+        "accessRole": "arn:aws:iam::xxxxxxxxxxxx:role/service-role/AccessAnalyzerMonitorServiceRole_P7AACX8P0D",
+        "endTime": "2021-09-15T00:00:00",
+        "startTime": "2021-09-10T00:00:00",
+        "trails": [
+            {
+                "allRegions": true,
+                "cloudTrailArn": "arn:aws:cloudtrail:us-west-2:xxxxxxxxxxxx:trail/GRPNOrganizationTrail",
+                "regions": [
+                    "us-west-2"
+                ]
+            }
+        ]
+    },
+    "policyGenerationDetails": {
+        "principalArn": "arn:aws:iam::xxxxxxxxxxxx:role/apptio-all-billing-ro"
+    }
+}
