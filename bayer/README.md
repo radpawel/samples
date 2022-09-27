@@ -86,6 +86,7 @@ POC of a Django app with a reverse proxy running in AWS ECS.
 
 
 - Run command to build images and push them to the registry
+        
         popd
         make all
 
