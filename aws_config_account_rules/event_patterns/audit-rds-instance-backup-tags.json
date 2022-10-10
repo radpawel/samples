@@ -1,0 +1,24 @@
+{
+  "source": [
+    "aws.config"
+  ],
+  "detail-type": [
+    "Config Rules Compliance Change"
+  ],
+  "detail": {
+    "messageType": [
+      "ComplianceChangeNotification"
+    ],
+    "configRuleName": [
+      "${cloudwatch_event_rule_name}"
+    ],
+    "resourceType": [
+      "AWS::RDS::DBInstance"
+    ],
+    "newEvaluationResult": {
+      "complianceType": [
+        "NON_COMPLIANT"
+      ]
+    }
+  }
+}
